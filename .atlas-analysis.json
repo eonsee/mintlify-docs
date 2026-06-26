@@ -1,17 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "general",
+  "projectName": "知识库",
+  "projectDescription": "一个简洁的知识站点，帮助用户快速查找信息、学习核心概念并解决常见问题。",
   "theme": "almond",
-  "name": "知识库",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "groups": [
       {
@@ -32,14 +26,12 @@
       }
     ]
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "开始使用",
-      "href": "/introduction"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "清晰的知识分类与导航",
+    "快速入门指南",
+    "核心概念说明",
+    "常见问题解答",
+    "使用技巧与最佳实践"
+  ],
+  "publicApiSurface": []
 }
